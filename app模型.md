@@ -48,3 +48,15 @@
 |--------------------|--------|------------------------------------|
 | Object<App>        | Object | 若是存在默认应用，则返回一个App对象 |
 |"default app notfound"  | String | 没有找到初始化应用，意味着系统需要数据重置           |
+
+
+# 关联的其他模型
+
+* AppUser
+* AppRole
+* AppStorage
+* AppOwner
+* AppShop
+* AppOrder
+
+
