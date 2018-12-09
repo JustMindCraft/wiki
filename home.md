@@ -148,14 +148,8 @@ e. 所有模型必须包括以下字段，其后不再累述：
 * [关联的其他模型](/AppOwner模型#关联的其他模型)
 ## 8. 默认数据
 ## 9. 业务场景描述
-flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
+### 9.1 服务器启动流程
+![服务器启动流程](/uploads/服务器启动流程.jpg "服务器启动流程")
 ## 10. 单元测试设计
 ## 11. 场景业务设计
 ## 12. 私有云存储设计
