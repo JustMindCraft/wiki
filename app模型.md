@@ -39,7 +39,7 @@
 | "ownerId required" | String | ownerId 参数不能等价为 false       |
 | "type required"    | String | type参数不能等价为false            |
 
-## getDefault()
+## getDefaultApp()
 获取系统默认应用
 ### 参数表
 无
