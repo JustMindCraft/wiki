@@ -147,14 +147,15 @@ e. 所有模型必须包括以下字段，其后不再累述：
 * [方法](/AppOnwer模型#方法)
 * [关联的其他模型](/AppOwner模型#关联的其他模型)
 ## 8. 默认数据
-## 9. 数据业务流程
-### 9.1 服务端启动
-### 9.2 册
-### 9.3 机验证码登录
-### 9.4 户名密码登录
-### 9.5 载首页
-### 9.6 买商品
-### 
+## 9. 业务场景描述
+flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
 ## 10. 单元测试设计
 ## 11. 场景业务设计
 ## 12. 私有云存储设计
