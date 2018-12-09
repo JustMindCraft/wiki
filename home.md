@@ -41,7 +41,7 @@
 
 若是您的PC的CPU不支持虚拟化，可以安装双系统。
 
-本系统大部分技术资料在海外，请学会用梯子科学上网
+本系统大部分技术资料在海外，请学会用[https://github.com/getlantern/download] (梯子科学上网)
 
 ###  搭建教程
 1. [https://www.jianshu.com/p/a3f8778bc0a1] (Mac 下， nvm 安装 Node 及配置)
