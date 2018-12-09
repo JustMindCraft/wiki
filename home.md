@@ -44,14 +44,14 @@
 本系统大部分技术资料在海外，请学会用梯子科学上网
 
 ###  搭建教程
-1. [https://www.jianshu.com/p/a3f8778bc0a1](Mac 下， nvm 安装 Node 及配置)
-2. [https://www.jianshu.com/p/e1c79e156e8f](ubuntu 下搭建 nodejs 环境)
-3. [https://www.jianshu.com/p/ab50ea8b13d6](Mac 下 安装 brew)
-4. [https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E5%AE%89%E8%A3%85.html](安装 vscode)
+1. [https://www.jianshu.com/p/a3f8778bc0a1] (Mac 下， nvm 安装 Node 及配置)
+2. [https://www.jianshu.com/p/e1c79e156e8f] (ubuntu 下搭建 nodejs 环境)
+3. [https://www.jianshu.com/p/ab50ea8b13d6] (Mac 下 安装 brew)
+4. [https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E5%AE%89%E8%A3%85.html] (安装 vscode)
 ## 3. 软件依赖及文档
-1. [https://hapijs.com/](hapijs)
-2. [https://mongoosejs.com/](mongoose)
-3. [https://ipfs.io/](ipfs)
+1. [https://hapijs.com/] (hapijs)
+2. [https://mongoosejs.com/] (mongoose)
+3. [https://ipfs.io/] (ipfs)
 
 ## 4. 软件目录结构以及介绍
 
