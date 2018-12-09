@@ -20,7 +20,7 @@
 
 # 方法
 
-## create(params,  ownerId, type)
+## createApp(params,  ownerId, type)
 创建一个新的APP
 ### 参数表
 | 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
