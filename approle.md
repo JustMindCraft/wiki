@@ -27,30 +27,26 @@
 ### 返回值
 | 返回值             | 类型   | 解释                               |
 |--------------------|--------|------------------------------------|
-| Object<App>        | Object | 若是App创建成功，则返回一个App对象 |
+| object       | Object | 若是绑定成功，则返回一个AppRole对象 |
 | "ALREADY EXISTS"    | String | 这个应用的role已经存在重名           |
-| "name_zh required" | String | params参数需要包含name_zh键        |
-| "ownerId required" | String | ownerId 参数不能等价为 false       |
-| "type required"    | String | type参数不能等价为false            |
 
-## getDefaultApp()
+
+## getOneRoleForApp(appId, match)
 获取系统默认应用
 ### 参数表
-无
+| 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
+| roleId | ObjectId   | Role模型的ObjectId                        | null    | 不得等价为false          |
+| match   | Object   | mongo风格查询对象， 用以查找roles表 | {} | 类型检查
 ### 返回值
 | 返回值             | 类型   | 解释                               |
 |--------------------|--------|------------------------------------|
-| Object<App>        | Object | 若是存在默认应用，则返回一个App对象 |
-|"default app notfound"  | String | 没有找到初始化应用，意味着系统需要数据重置           |
+| object        | Object | 若是存在默认应用，则返回一个Role对象 |
+| null | Null | 没有找到符合要求的Role对象 |           |
 
 
 # 关联的其他模型
 
-* AppUser
-* AppRole
-* AppStorage
-* [AppOwner](/appowner模型)
-* AppShop
-* AppOrder
+* [App](/app模型)
+* [Role](/role模型)
 
 
