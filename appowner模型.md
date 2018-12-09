@@ -34,5 +34,5 @@
 
 # 关联的其他模型
 
-* App
-* User
+* [App](/app模型)
+* [User](/user模型)
