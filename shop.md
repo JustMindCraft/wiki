@@ -33,7 +33,7 @@
 
 
 # 关联的其他模型
-[AppShop](AppShop)
-[ShopGoodClass](ShopGoodClass)
-[ShopOwner](ShopOwner)
-[ShopOrder](ShopOrder)
+* [AppShop](AppShop)
+* [ShopGoodClass](ShopGoodClass)
+* [ShopOwner](ShopOwner)
+* [ShopOrder](ShopOrder)
