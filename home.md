@@ -148,7 +148,7 @@ e. 所有模型必须包括以下字段，其后不再累述：
 ## 8. 默认数据
 ## 9. 业务场景描述
 ### 9.1 服务器启动流程
-![E 6 9 C 8 D E 5 8 A A 1 E 5 99 A 8 E 5 90 Af E 5 8 A A 8 E 6 B 5 81 E 7 A 8 8 B](/uploads/e-6-9-c-8-d-e-5-8-a-a-1-e-5-99-a-8-e-5-90-af-e-5-8-a-a-8-e-6-b-5-81-e-7-a-8-8-b.jpg "E 6 9 C 8 D E 5 8 A A 1 E 5 99 A 8 E 5 90 Af E 5 8 A A 8 E 6 B 5 81 E 7 A 8 8 B")
+![Serverstartflow](/uploads/flows/serverstartflow.jpg "Serverstartflow")
 ## 10. 单元测试设计
 ## 11. 场景业务设计
 ## 12. 私有云存储设计
