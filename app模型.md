@@ -27,3 +27,6 @@
 | params | Object   | 包含App字段内容的对象                        | {}     | 不得为false, 并且params.name唯一            |
 | onwer  | ObjectId | User模型的Id， 说明App的拥有者               | null   | 不得为false                                 |
 | type   | String   | 说明App类型，目前可选的有："shop", 'storage' | 'shop' | 不得为false,或者空字符串,或者不在可选范围内 |
+
+
+### 返回值
