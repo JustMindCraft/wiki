@@ -1,6 +1,6 @@
 <!-- TITLE: App模型 -->
 <!-- SUBTITLE: App模型 -->
-## 模型定义的文件位置
+# 模型定义的文件位置
 [项目目录]/models/App.js
 
 # 字段
