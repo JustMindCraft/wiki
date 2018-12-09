@@ -64,7 +64,7 @@
 ├── models //模型类
 ├── node_modules //npm 模块
 ├── package.json
-├── public
+├── public //静态文件
 
 ## 4. 模型设计原则
 a. 数据内容和模型关系完全分开
