@@ -1,5 +1,5 @@
 <!-- TITLE: App模型 -->
-<!-- SUBTITLE: App模型 -->
+<!-- SUBTITLE: 用于处理系统的应用管理 -->
 # 模型定义的文件位置
 [项目目录]/models/App.js
 
