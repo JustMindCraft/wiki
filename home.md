@@ -24,6 +24,27 @@
 * 使用区块链加密技术保障用户数据安全
 * 逐步把数据去中心化，使得数据分布式在各个客户间，以保证平台责任中立
 
+
+
+-----
+
+
+
 ## 2.  开发环境
-### 	* 	描述
+### *  系统要求
+
+		本系统基于nodejs语言和mongodb数据进行开发，使用nodejs的hapiJS框架，已经nodejs的mongodb的ORM作为数据驱动。
+
+		不建议使用windows环境进行开发，若是预装windows的PC，建议装vagrant开发环境，本文档所有的内容也会基于Linux/Unix 内核的操作系统进行介绍。
+
+		推荐的操作系统有MacOS， 以及linux 发型版： linux mint, ubuntu18.04， 以及基于ubuntu18.04的各类发型版， vagrant 环境推荐的box, 点击此处
+
+		若是您的PC的CPU不支持虚拟化，可以安装双系统。
+
+		本系统大部分技术资料在海外，请学会用梯子科学上网
+
 ### 	* 	搭建教程
+		1. Mac下，nvm安装Node及配置
+		2. ubuntu下搭建nodejs环境 
+
+
