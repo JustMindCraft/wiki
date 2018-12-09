@@ -82,8 +82,11 @@ e. 所有模型必须包括以下字段，其后不再累述：
 
 ## 6. 基础模型
 基础模型是指的是没有任何关联性关系的模型
-###  [应用模型——App](http://coding.net)
-#### [用于处理系统的应用管理](http://coding.net)
+###  应用模型
+* [介绍](http://coding.net)
+* [字段表](http://coding.net)
+* [方法](http://coding.net)
+* [关联的其他模型](http://coding.net)
 ### 商品模型——Good
 字段表
 ### 商品类别模型——GoodClass
