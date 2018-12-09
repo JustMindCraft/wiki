@@ -1,5 +1,5 @@
 <!-- TITLE: 正觉云 -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- SUBTITLE: 概述 -->
 
 # 正觉云知识库
 
