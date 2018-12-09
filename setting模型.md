@@ -29,7 +29,7 @@
 |------------------|--------|----------------------------------------------------|
 |       object    | Object   | Setting类型的对象                                               | 
 |       "Already Exist"     | String   | 系统设置名已经存在                                               | 
-|       "Already Exist"     | String   | 系统设置名已经存在                                               | 
+|      "UNSUPPORT TYPE "   | String   | 不支持的系统设置类型           | 
 ## getSettingValue(name)
 获取系统的属性
 
