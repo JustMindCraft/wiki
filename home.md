@@ -1,4 +1,4 @@
-<!-- TITLE: 正觉云 -->
+![服务器启动流程](/uploads/服务器启动流程.jpg "服务器启动流程"){.align-center}<!-- TITLE: 正觉云 -->
 <!-- SUBTITLE: 概述 -->
 
 # 正觉工场知识库
