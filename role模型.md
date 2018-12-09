@@ -37,5 +37,5 @@
 
 # 关联的其他模型
 
-* [/approle类型](AppRole)
-* [/roleuser类型](RoleUser)
+* [AppRole](AppRole)
+* [RoleUser](RoleUser)
