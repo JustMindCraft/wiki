@@ -6,8 +6,8 @@
 # 字段表
 | 字段名           | 类型   | 解释                                               | 默认             | 验证       |
 |------------------|--------|----------------------------------------------------|------------------|------------|
-| app    | ObjectId | App类型objectId                               | null               | 必要,不可等价为false       |
-| role    | ObjectId | Role类型objectId                               | null               | 必要,不可等价为false       |
+| app    | ObjectId | App类型objectId                               | "unknown"               | 必要,不可等价为false       |
+| role    | ObjectId | Role类型objectId                               | "unknown"               | 必要,不可等价为false       |
 | isDefault    | Boolean | 是否为系统默认                               | false               | 必要       |
 
 
@@ -18,7 +18,7 @@
 ### 参数表
 | 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
 |--------|----------|----------------------------------------------|--------|---------------------------------------------|
-| roleId | ObjectId   | Role模型的ObjectId                        | null    | 不得等价为false          |
+| roleId | ObjectId   | Role模型的ObjectId                        | "unknown"    | 不得等价为false          |
 | appId  | ObjectId | App模型的Id， 说明Role的归属的App               | null   | 不得等价为false                                 |
 | optional   | Object   | 可选的其他参数| {} | 类型检查 |
 | optional.isDefault   | Boolean   | 是否为系统默认关系| false | 类型检查 |
@@ -36,7 +36,7 @@
 ### 参数表
 | 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
 |-------|-------------|--------|---------------|---------------------|
-| roleId | ObjectId   | Role模型的ObjectId                        | null    | 不得等价为false          |
+| roleId | ObjectId   | Role模型的ObjectId                        | "unknown"    | 不得等价为false          |
 | match   | Object   | mongo风格查询对象， 用以查找roles表 | {} | 类型检查
 ### 返回值
 | 返回值             | 类型   | 解释                               |
