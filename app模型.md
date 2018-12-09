@@ -15,6 +15,7 @@
 | adminHost        | String | 应用后台管理程序认证的主机名，默认为开发环境主机名 | 'localhost:3002' | 必要       |
 | smsServiceSecret | String | 短信验证平台密钥                                   | "unset"               | 必要       |
 | smsServiceUrl    | String | 短信验证平台发送地址                               | "unset"               | 必要       |
+| isDefault    | Boolean | 是否为系统默认的应用                               | false               | 必要       |
 
 
 # 方法
