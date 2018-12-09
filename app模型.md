@@ -53,7 +53,7 @@
 # 关联的其他模型
 
 * AppUser
-* AppRole
+* [AppRole](/approle模型)
 * AppStorage
 * [AppOwner](/appowner模型)
 * AppShop
