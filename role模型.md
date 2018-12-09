@@ -17,10 +17,25 @@
 
 # 方法
 
-## setSettingValue(name, value)
+## createRole(params, appId)
 设置系统的属性值
-## getSettingValue(name)
-获取系统的属性
+## 参数表
+| 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
+|--------|----------|----------------------------------------------|--------|---------------------------------------------|
+| params | Object   | 包含Role字段内容的对象                        | {}     | 不得等价为false, 并且params.name在同一个app唯一            |
+| appId  | ObjectId | 说明这个role属于那个app               | null   | 不得等价为false                                 |
+
+
+## 返回值
+|返回值|类型|解释|
+|---------|------|------|
+|'name required'|String|参数params的name等价为false|
+|'appId required'|String|参数appId等价为false|
+|'role name or name_zh exists'|String|字段name或者name_zh在同一个App内已经存在|
+|object|Object|创建成功，返回一个类型为Role的对象|
 
 
 # 关联的其他模型
+
+* [/approle类型](AppRole)
+* [/roleuser类型](RoleUser)
