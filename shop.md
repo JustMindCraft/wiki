@@ -32,3 +32,8 @@
 | object | Object | 若是创建成功，返回一个Shop类对象  |
 
 
+# 关联的其他模型
+[AppShop](AppShop)
+[ShopGoodClass](ShopGoodClass)
+[ShopOwner](ShopOwner)
+[ShopOrder](ShopOrder)
