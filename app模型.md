@@ -55,7 +55,7 @@
 * AppUser
 * AppRole
 * AppStorage
-* AppOwner
+* (AppOwner)[/appowner模型]
 * AppShop
 * AppOrder
 
