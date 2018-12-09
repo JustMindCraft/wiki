@@ -24,9 +24,22 @@
 ### 参数表
 | 参数名 | 类型     | 解释                                         | 默认   | 验证                                        |
 |--------|----------|----------------------------------------------|--------|---------------------------------------------|
-| params | Object   | 包含App字段内容的对象                        | {}     | 不得为false, 并且params.name唯一            |
-| onwer  | ObjectId | User模型的Id， 说明App的拥有者               | null   | 不得为false                                 |
-| type   | String   | 说明App类型，目前可选的有："shop", 'storage' | 'shop' | 不得为false,或者空字符串,或者不在可选范围内 |
+| params | Object   | 包含App字段内容的对象                        | {}     | 不得等价为false, 并且params.name唯一            |
+| onwerId  | ObjectId | User模型的Id， 说明App的拥有者               | null   | 不得等价为false                                 |
+| type   | String   | 说明App类型，目前可选的有："shop", 'storage' | 'shop' | 不得等价为false,或者空字符串,或者不在可选范围内 |
 
 
+### 返回值
+| 返回值             | 类型   | 解释                               |
+|--------------------|--------|------------------------------------|
+| Object<App>        | Object | 若是App创建成功，则返回一个App对象 |
+| "name required"    | String | params参数需要包含name键           |
+| "name_zh required" | String | params参数需要包含name_zh键        |
+| "ownerId required" | String | ownerId 参数不能等价为 false       |
+| "type required"    | String | type参数不能等价为false            |
+
+## getDefault()
+创建一个新的APP
+### 参数表
+无
 ### 返回值
