@@ -26,7 +26,7 @@
 ### 返回值
 
 | 返回值           | 类型   | 解释                                               | 
-|       object<Setting>     | Object   | Setting类型的对象                                               | 
+|       object    | Object   | Setting类型的对象                                               | 
 |       "Already Exist"     | String   | 系统设置名已经存在                                               | 
 |       "Already Exist"     | String   | 系统设置名已经存在                                               | 
 ## getSettingValue(name)
