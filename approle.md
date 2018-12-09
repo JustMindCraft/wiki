@@ -1,7 +1,7 @@
 <!-- TITLE: AppRole模型 -->
 <!-- SUBTITLE: 用以表示应用内角色的关系 -->
 # 模型定义的文件位置
-[项目目录]/models/App.js
+[项目目录]/models/AppRole.js
 
 # 字段表
 | 字段名           | 类型   | 解释                                               | 默认             | 验证       |
