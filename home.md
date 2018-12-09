@@ -80,9 +80,9 @@ e. 所有模型必须包括以下字段，其后不再累述：
 | updatedAt | Date    | 更新时间 | 自动生成 | 必要 |
 | isDeleted | Boolean | 是否删除 | false    | 必要 |
 
-## 6. 基础模型——App
+## 6. 基础模型
 基础模型是指的是没有任何关联性关系的模型
-###  应用模型
+###  应用模型——App
 * [介绍](http://coding.net)
 * [字段表](http://coding.net)
 * [方法](http://coding.net)
