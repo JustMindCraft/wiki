@@ -2,7 +2,7 @@
 <!-- SUBTITLE: 概述 -->
 
 # 正觉工场知识库
-## 1.  主要功能
+## 主要功能
 ### 系统设计目的所有面对的主要包括以下客户主体：
 
 * 需要快速启动电商业务的企业主（50%）
@@ -29,7 +29,7 @@
 
 
 
-## 2.  开发环境
+## 开发环境
 ###   系统要求
 
 本系统基于nodejs语言和mongodb数据进行开发，使用nodejs的hapiJS框架，已经nodejs的mongodb的ORM作为数据驱动。
@@ -47,12 +47,12 @@
 2. [ubuntu 下搭建 nodejs 环境](https://www.jianshu.com/p/e1c79e156e8f)
 3. [Mac 下 安装 brew]([https://www.jianshu.com/p/ab50ea8b13d6)
 4. [安装 vscode](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E5%AE%89%E8%A3%85.html)
-## 3. 软件依赖及文档
+## 软件依赖及文档
 1. [hapijs](https://hapijs.com/)
 2. [mongoose](https://mongoosejs.com/])
 3. [ipfs](https://ipfs.io/)
 
-## 4. 软件目录结构以及介绍
+## 软件目录结构以及介绍
 
 ├── api  // api 路由文件
 ├── bin // 工具脚本
@@ -74,7 +74,7 @@
 ### 判断
 ### 循环
 
-## 5. 模型设计原则
+## 模型设计原则
 a. 数据内容和模型关系完全分开
 b. 总是有条件的查询
 c. 总是有默认数据
@@ -88,7 +88,7 @@ e. 所有模型必须包括以下字段，其后不再累述：
 | updatedAt | Date    | 更新时间 | 自动生成 | 必要 |
 | isDeleted | Boolean | 是否删除 | false    | 必要 |
 
-## 6. 基础模型
+## 基础模型
 基础模型是指的是没有任何关联性关系的模型
 ###  应用模型——App
 表示系统内所有的应用
@@ -147,20 +147,20 @@ e. 所有模型必须包括以下字段，其后不再累述：
 ### 系统设置模型——Setting
 字段表
 方法
-## 7. 关系模型
+## 关系模型
 ### 应用拥有者模型——AppOwner
 表示应用拥有者的关系模型
 * [文件位置](/AppOwner%E6%A8%A1%E5%9E%8B#%E6%A8%A1%E5%9E%8B%E5%AE%9A%E4%B9%89%E7%9A%84%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE)
 * [字段表](/AppOwner模型#字段表)
 * [方法](/AppOnwer模型#方法)
 * [关联的其他模型](/AppOwner模型#关联的其他模型)
-## 8. 默认数据
-## 9. 业务场景描述
-### 9.1 服务器启动流程
+## 默认数据
+##  业务场景描述
+###  服务器启动流程
 ![Serverstartflow](/uploads/flows/serverstartflow.jpg "Serverstartflow")
-## 10. 单元测试设计
-## 11. 场景业务设计
-## 12. 私有云存储设计
+##  单元测试设计
+##  场景业务设计
+##  私有云存储设计
 ipfs 节点
 ipfs 开发要点
 HLS 节点管理
@@ -168,18 +168,18 @@ webTorrent Tracker 管理
 webTorrent HLS 管理
 前端文件播放器
 部署
-## 13. 前端开发环境搭建
+##  前端开发环境搭建
 typescript
 react 以及 react native
 material UI
 ipfsAPI
 前端原型线框页面截图
 http(s) API 手册
-## 14. 生产环境部署
+##  生产环境部署
 a. 描述
 b. 搭建
 c. 优化
-## 15. 迭代展望
+## 迭代展望
 d. 进一步的分布式
 e. gunjs
 f. webtorrent
