@@ -157,7 +157,7 @@ e. 所有模型必须包括以下字段，其后不再累述：
 ## 默认数据
 ##  业务场景描述
 ###  服务器启动流程
-![Serverstartflow](/uploads/flows/serverstartflow.jpg "Serverstartflow")
+![Serverstartupflow](/uploads/serverstartupflow.png "Serverstartupflow")
 ##  单元测试设计
 ##  场景业务设计
 ##  私有云存储设计
