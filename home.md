@@ -156,8 +156,7 @@ e. 所有模型必须包括以下字段，其后不再累述：
 * [关联的其他模型](/AppOwner模型#关联的其他模型)
 ## 默认数据
 ##  业务场景描述
-###  服务器启动流程
-![Serverstartupflow](/uploads/serverstartupflow.png "Serverstartupflow")
+###  [服务器启动流程](serverStartUpFlow)
 ##  单元测试设计
 ##  场景业务设计
 ##  私有云存储设计
