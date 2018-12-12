@@ -5,3 +5,8 @@
 [项目目录]/models/User.js
 
 # 字段表
+# 方法
+## isSuperUserExists()
+查找超级管理员是否存在
+### 参数表
+
