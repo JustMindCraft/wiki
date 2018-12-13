@@ -15,6 +15,6 @@
 * [AppShop#getShopFromApp(appId, fields, match)](/AppShop#get-shop-from-app-app-id-fields-match)
 * [Shop#createShop(params, appId)](/Shop#create-shop-params-app-id)
 * [ShopGoodClass#getOneGoodClassFromShopId(shopId, fields, match)](/ShopGoodClass#get-one-good-class-from-shop-id-shop-id-fields-match)
-* [GoodClass#createGoodClass(params, shopId)](/GoodClass#createGoodClass(params, shopId))
+* [GoodClass#createGoodClass(params, shopId)](/GoodClass#create-good-class-params-shop-id)
 * [GoodClassGood#getOneGoodFromGoodClassId(goodClassId, fields, match)](/GoodClassGood#get-one-good-from-good-class-id-good-class-id-fields-match)
 * [Good#createGood(params, goodClassId)](/Good#create-good-params-good-class-id)
