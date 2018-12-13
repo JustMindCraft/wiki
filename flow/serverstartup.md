@@ -8,8 +8,8 @@
 
 # 涉及到的对象方法
 * [User#setSuperAdmin()](/User#setSuperAdmin())
-* [App#isDefaultAppExists()](/App#isDefaultAppExists())
-* [App#createApp(params, ownerId, type)](/App#create-app-params-ownerid-type)
+* [App#isDefaultAppExists()](/app模型#isDefaultAppExists())
+* [App#createApp(params, ownerId, type)](/app模型#create-app-params-ownerid-type)
 * [App#getOwner(appId)](/App#getOwner(appId))
 * [AppOwner#bindAppForUser(appId, ownerId)](/AppOwner#bindAppForUser(appId, ownerId))
 * [AppShop#getShopFromApp(appId, fields, match)](/AppShop#getShopFromApp(appId, fields, match))
