@@ -7,11 +7,11 @@
 ![Serverstartupflow](/uploads/flows/serverstartupflow.png "Serverstartupflow")
 
 # 涉及到的对象方法
-* [User#setSuperAdmin()](/User#setSuperAdmin())
-* [App#isDefaultAppExists()](/app模型#isDefaultAppExists())
+* [User#setSuperAdmin()](/User#set-super-admin)
+* [App#isDefaultAppExists()](/app模型#is-default-app-exists)
 * [App#createApp(params, ownerId, type)](/app模型#create-app-params-owner-id-type)
 * [App#getOwner(appId)](/App#getOwner(appId))
-* [AppOwner#bindAppForUser(appId, ownerId)](/AppOwner#bindAppForUser(appId, ownerId))
+* [AppOwner#bindAppForUser(appId, ownerId)](/AppOwner#bind-app-for-user-app-id-owner-id)
 * [AppShop#getShopFromApp(appId, fields, match)](/AppShop#getShopFromApp(appId, fields, match))
 * [Shop#createShop(params, appId)](/Shop#createShop(params, appId))
 * [ShopGoodClass#getOneGoodClassFromShopId(shopId, fields, match)](/ShopGoodClass#getOneGoodClassFromShopId(shopId, fields, match))
