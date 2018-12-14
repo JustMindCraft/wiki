@@ -1,6 +1,8 @@
 <!-- TITLE: 正觉云 -->
 <!-- SUBTITLE: 概述 -->
 
+
+
 # 正觉工场知识库
 ## 主要功能
 ### 系统设计目的所有面对的主要包括以下客户主体：
@@ -27,7 +29,16 @@
 
 -----
 
-
+## 任务列表
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
 
 ## 开发环境
 ###   系统要求
