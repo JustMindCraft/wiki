@@ -7,6 +7,7 @@
 ![Serverstartupflow](/uploads/flows/serverstartupflow.png "Serverstartupflow")
 
 # 涉及到的对象方法
+* [User#isSuperAdminExists()](/User#is-super-admin-exists)
 * [User#setSuperAdmin()](/User#set-super-admin)
 * [App#isDefaultAppExists()](/app模型#is-default-app-exists)
 * [App#createApp(params, ownerId, type)](/app模型#create-app-params-owner-id-type)
