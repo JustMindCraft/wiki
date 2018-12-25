@@ -5,7 +5,6 @@
 [项目目录]/flows/softwareBuy.js
 # 流程图
 ![Softwarebuy](/uploads/flows/softwarebuy.png "Softwarebuy")
-
 # 涉及到的对象方法
 * [User#isSuperAdminExists()](/User#is-super-admin-exists)
 * [User#setSuperAdmin()](/User#set-super-admin)
