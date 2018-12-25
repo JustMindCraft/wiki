@@ -188,6 +188,14 @@ e. 所有模型必须包括以下字段，其后不再累述：
 *  [文件位置](/flow/serverStartup#文件位置)
 *  [流程图](/flow/serverStartup#流程图)
 *  [涉及的对象方法](/flow/serverStartup#涉及到的对象方法)
+
+
+### 软件购买流程
+*  [文件位置](/flow/buySoftWare#文件位置)
+*  [流程图](/flow/buySoftWare#流程图)
+*  [涉及的对象方法](/flow/buySoftWare#涉及到的对象方法)
+
+
 ##  单元测试设计
 ##  场景业务设计
 ##  私有云存储设计
