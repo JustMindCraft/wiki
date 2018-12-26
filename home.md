@@ -195,6 +195,11 @@ e. 所有模型必须包括以下字段，其后不再累述：
 *  [流程图](/flow/buySoftWare#流程图)
 *  [涉及的对象方法](/flow/buySoftWare#涉及到的对象方法)
 
+### 新建应用流程
+*  [文件位置](/flow/createApp#文件位置)
+*  [流程图](/flow/createApp#流程图)
+*  [涉及的对象方法](/flow/createApp涉及到的对象方法)
+
 
 ##  单元测试设计
 ##  场景业务设计
